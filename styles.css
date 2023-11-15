@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: rgb(114, 156, 201);
+}
+
+#level-title {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 6rem;
+  margin:  %;
+  color: rgb(230, 51, 40);
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 30px;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  border: 8px solid black;
+  border-radius: 18%;
+}
+
+.game-over {
+  background-color: rgb(116, 13, 46);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rebeccapurple;
+}
+
+.green {
+  background-color:orange;
+}
+
+.blue {
+  background-color: rgb(255, 255, 5);
+}
+
+.yellow {
+  background-color: rgb(0, 213, 255);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
